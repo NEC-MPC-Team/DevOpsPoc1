@@ -50,7 +50,7 @@ resource "azurerm_virtual_network" "example" {
     subnet {
     name           = "subnet4"
     address_prefix = "10.0.4.0/24"
-  }
+  }}
 
   tags = {
     environment = "Production"
